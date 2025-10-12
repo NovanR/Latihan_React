@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import FormLogin from "../Fragments/FormLogin";
 
 const AuthLayouts = (props) => {
   const { children, title, type } = props;
