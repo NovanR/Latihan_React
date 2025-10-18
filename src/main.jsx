@@ -25,6 +25,10 @@ const router = createBrowserRouter([
     path: "/products",
     element: <ProductPages />,
   },
+  {
+    path: "/profile",
+    element: <ProfilePage />,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
